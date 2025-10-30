@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NmLoader
+  SYSTEM "standard12_1.dtd">
+<NmLoader>
+   <csvAttrDefinizer handler="wt.iba.definition.DefinitionLoaderWithCache.createAttrDefinizer">
+      <csvname>pl.ttpsc.AcademyOrganizer</csvname>
+      <csvhierarchyDisplayName>Academy Organizer</csvhierarchyDisplayName>
+      <csvorganizerPaths></csvorganizerPaths>
+      <csvdefinitionPaths/>
+      <csvdisplay_name/>
+      <csvdescription/>
+      <csvdata_type>ORG</csvdata_type>
+      <csvQoMName/>
+      <csvnameValuePairs/>
+      <csvlogicalIdentifier/>
+   </csvAttrDefinizer>
+   <csvAttrDefinizer handler="wt.iba.definition.DefinitionLoaderWithCache.createAttrDefinizer">
+      <csvname>pl.ttpsc.Color</csvname>
+      <csvhierarchyDisplayName>pl.ttpsc.Color</csvhierarchyDisplayName>
+      <csvorganizerPaths>pl.ttpsc.AcademyOrganizer</csvorganizerPaths>
+      <csvdefinitionPaths/>
+      <csvdisplay_name>Color</csvdisplay_name>
+      <csvdescription>pl.ttpsc.Color</csvdescription>
+      <csvdata_type>STR</csvdata_type>
+      <csvQoMName/>
+      <csvnameValuePairs/>
+      <csvlogicalIdentifier/>
+   </csvAttrDefinizer>
+   <csvAttrDefinizer handler="wt.iba.definition.DefinitionLoaderWithCache.createAttrDefinizer">
+      <csvname>pl.ttpsc.FocalLength</csvname>
+      <csvhierarchyDisplayName>pl.ttpsc.FocalLength</csvhierarchyDisplayName>
+      <csvorganizerPaths>pl.ttpsc.AcademyOrganizer</csvorganizerPaths>
+      <csvdefinitionPaths/>
+      <csvdisplay_name>Focal length</csvdisplay_name>
+      <csvdescription>pl.ttpsc.FocalLength</csvdescription>
+      <csvdata_type>FLOAT</csvdata_type>
+      <csvQoMName/>
+      <csvnameValuePairs/>
+      <csvlogicalIdentifier/>
+   </csvAttrDefinizer>
+   <csvAttrDefinizer handler="wt.iba.definition.DefinitionLoaderWithCache.createAttrDefinizer">
+      <csvname>pl.ttpsc.Polarized</csvname>
+      <csvhierarchyDisplayName>pl.ttpsc.Polarized</csvhierarchyDisplayName>
+      <csvorganizerPaths>pl.ttpsc.AcademyOrganizer</csvorganizerPaths>
+      <csvdefinitionPaths/>
+      <csvdisplay_name>Polarized</csvdisplay_name>
+      <csvdescription>pl.ttpsc.Polarized</csvdescription>
+      <csvdata_type>FLOAT</csvdata_type>
+      <csvQoMName/>
+      <csvnameValuePairs/>
+      <csvlogicalIdentifier/>
+   </csvAttrDefinizer>
+   <csvAttrDefinizer handler="wt.iba.definition.DefinitionLoaderWithCache.createAttrDefinizer">
+      <csvname>partDescription</csvname>
+      <csvhierarchyDisplayName>partDescription</csvhierarchyDisplayName>
+      <csvorganizerPaths>pl.ttpsc.AcademyOrganizer</csvorganizerPaths>
+      <csvdefinitionPaths/>
+      <csvdisplay_name>Part Description</csvdisplay_name>
+      <csvdescription>partDescription</csvdescription>
+      <csvdata_type>STR</csvdata_type>
+      <csvQoMName/>
+      <csvnameValuePairs/>
+      <csvlogicalIdentifier/>
+   </csvAttrDefinizer>
+   <csvAttrDefinizer handler="wt.iba.definition.DefinitionLoaderWithCache.createAttrDefinizer">
+      <csvname>pl.ttpsc.AntiReflexCoating</csvname>
+      <csvhierarchyDisplayName>pl.ttpsc.AntiReflexCoating</csvhierarchyDisplayName>
+      <csvorganizerPaths>pl.ttpsc.AcademyOrganizer</csvorganizerPaths>
+      <csvdefinitionPaths/>
+      <csvdisplay_name>Anti-Reflex Coating</csvdisplay_name>
+      <csvdescription>pl.ttpsc.AntiReflexCoating</csvdescription>
+      <csvdata_type>FLOAT</csvdata_type>
+      <csvQoMName/>
+      <csvnameValuePairs/>
+      <csvlogicalIdentifier/>
+   </csvAttrDefinizer>
+   <csvAttrDefinizer handler="wt.iba.definition.DefinitionLoaderWithCache.createAttrDefinizer">
+      <csvname>pl.ttpsc.IsProgressive</csvname>
+      <csvhierarchyDisplayName>pl.ttpsc.IsProgressive</csvhierarchyDisplayName>
+      <csvorganizerPaths>pl.ttpsc.AcademyOrganizer</csvorganizerPaths>
+      <csvdefinitionPaths/>
+      <csvdisplay_name>Is progressive</csvdisplay_name>
+      <csvdescription>pl.ttpsc.IsProgressive</csvdescription>
+      <csvdata_type>BOOL</csvdata_type>
+      <csvQoMName/>
+      <csvnameValuePairs/>
+      <csvlogicalIdentifier/>
+   </csvAttrDefinizer>
+</NmLoader>

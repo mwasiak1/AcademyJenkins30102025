@@ -1,0 +1,22 @@
+<component name="SampleProject" organisation="PTC" description="SampleProject implements the processing process." homepage="https://ssp.ptc.com/wiki/display/bif/BIF+Home" COTS="false"
+xmlns="http://ssp.ptc.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ssp.ptc.com component.xsd">
+
+    <version major="1" minor="0" point="0" trivial="0" buildCode="0"/>
+    <windchill release="10.0" dateCode="C010" installSequence="0"/>
+
+    <install>
+        <xconf mode="site" file="shared.xconf" option="DEV" force="true"/>
+        <variable type="text" caption="Enter the Site Administrator user name" name="site-admin-user-name" default="wcadmin"/>
+        <variable type="password" caption="Enter the Site Administrators password" name="site-admin-secret" default="wcadmin"/>
+        <load file="AcademicDocument/AcademyDocument_LoadSet.xml" username="${site-admin-user-name}" password="${site-admin-secret}" containerPath="/"/>
+        <sqlload sqlpath="remove_ChangeOrder_default_search_view" option="DEV"/>
+    </install>
+
+    <extension>
+        <postDeploy>
+            <ant antfile="extension/newfeature.xml" target="clearCaches" inheritRefs="true"/>
+        </postDeploy>
+    </extension>
+
+</component>
+
